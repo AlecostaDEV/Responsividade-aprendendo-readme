@@ -1,0 +1,146 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    margin: 4% 0 0 5%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    color: #17233D;
+}
+
+a {
+    margin-right: 32px;
+}
+
+.sign-up-button {
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    padding: 14px 28px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sign-up-button:hover {
+    opacity: .8;
+}
+
+.sign-up-button:active {
+    background: #2b5722;
+    border: 1px solid #6FBF44;
+}
+
+img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    margin-top: 120px;
+}
+
+.container-left {
+    display: inline-block;
+}
+
+.container-right {
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    margin: 300px 0 0 160px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin: 40px 0;
+}
+
+.learn-more-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+.learn-more-link:hover {
+    opacity: .8;
+}
+
+.learn-more-link:active {
+    color: #2b5722;
+}
+
+@media screen and (max-width: 720px){
+    .header-links {
+        display: none;
+    }
+
+    .sign-up-button {
+        position: absolute;
+        right: 5%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .container-right {
+        position: absolute;
+        width: 70%;
+        height: 10%;
+        margin: 100px 0 0 15%;
+        display: block;
+    }
+
+    h1 {
+        font-size: 200%;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 100%;
+        line-height: 33px;
+        text-align: center;  
+    }
+
+    .learn-more-link {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    img{
+        position: absolute;
+        bottom: 5%;
+        right: 25%;    
+        width: calc(50vw);
+        height: calc(25vh);
+    }
+}
